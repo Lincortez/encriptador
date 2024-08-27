@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+:root {
+    /* ---------- TIPOGRAFIA ---------- */
+    --font-family-inter: 'Inter', sans-serif;
+}
+body {
+    font-family: var(--font-family-inter);
+}
+.main {
+    background-color: #f3f5fc;
+    padding-bottom: 100px;
+}
+.header {
+    height: 96px;
+    padding-top: 24px;
+    padding-left: 16px;
+}
+.logo {
+    width: 32px;
+    height: 40px;
+    /* margin-top: 24px;
+    margin-left: 16px; */
+}
+
+.input--encriptar {
+    margin-top: 100px;
+}
+
+.textarea {
+    width: 100%; /* Hace que el textarea ocupe todo el ancho disponible */
+    height: 200px; /* Ajusta la altura */
+    font-size: x-large; /* Tamaño de fuente grande */
+    border: none; /* Sin bordes */
+    background-color: #f3f5fc; /* Color de fondo */
+    resize: none; /* Evita que el usuario redimensione el textarea */
+    overflow: hidden; /* Evita el desbordamiento del contenido */
+    word-wrap: break-word; /* Asegura que las palabras largas se ajusten adecuadamente */
+    outline: none; /* Elimina el borde cuando el textarea está enfocado */
+}
+
+textarea:focus {
+    outline: none;
+}
+.btn-encriptar {
+    background-color: #0a3871;
+    color: #f3f5fc;
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    border-radius: 24px;
+    padding: 24px;
+}
+.btn-encriptar:hover {
+    background-color: #184379;
+    color: #f3f5fc;
+}
+.btn-desencriptar {
+    border: 1px solid;
+    color: #0a3871;
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    border-radius: 24px;
+    padding: 24px;
+    margin-top: 67px;
+}
+.card {
+    height: 168px;
+    margin-top: 100px;
+    border-radius: 32px;
+}
+.btn-copiar {
+    display: none;
+}
